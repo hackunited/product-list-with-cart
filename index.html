@@ -23,18 +23,154 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <title>Product list with cart</title>
+    <title>prod list with cart</title>
   </head>
   <body>
     <div class="container">
-      <h1>Desserts</h1>
-      Waffle with Berries Waffle 6.50 Add to Cart Vanilla Bean Crème Brûlée
-      Crème Brûlée 7.00 Add to Cart Macaron Mix of Five Macaron 8.00 Add to Cart
-      Classic Tiramisu Tiramisu 5.50 Add to Cart Pistachio Baklava Baklava 4.00
-      Add to Cart Lemon Meringue Pie Pie 5.00 Add to Cart Red Velvet Cake Cake
-      4.50 Add to Cart Salted Caramel Brownie Brownie 4.50 Add to Cart Vanilla
-      Panna Cotta Panna Cotta 6.50 Add to Cart Your Cart (<!-- Quantity -->)
-      Your added items will appear here
+      <h1 class="title">Desserts</h1>
+      <div class="wrapper">
+        <section class="prod-list">
+          <div class="prod-card">
+            <div class="prod-cta">
+              <img
+                src="./assets/images/image-waffle-desktop.jpg"
+                width="200"
+                height="200" />
+              <button>Add to Cart</button>
+            </div>
+            <div class="prod-details">
+              <p class="prod-category">Waffle</p>
+              <p class="prod-price">$6.50</p>
+              <h2 class="prod-name">Waffle with Berries</h2>
+            </div>
+          </div>
+
+          <div class="prod-card">
+            <div class="prod-cta">
+              <img
+                src="./assets/images/image-creme-brulee-desktop.jpg"
+                width="200"
+                height="200" />
+              <button>Add to Cart</button>
+            </div>
+            <div class="prod-details">
+              <p class="prod-category">Crème Brûlée</p>
+              <h2 class="prod-name">Vanilla Bean Crème Brûlée</h2>
+              <p class="prod-price">$7.00</p>
+            </div>
+          </div>
+
+          <div class="prod-card">
+            <div class="prod-cta">
+              <img
+                src="./assets/images/image-macaron-desktop.jpg"
+                width="200"
+                height="200" />
+              <button>Add to Cart</button>
+            </div>
+            <div class="prod-details">
+              <p class="prod-category">Macaron</p>
+              <p class="prod-price">$8.00</p>
+              <h2 class="prod-name">Macaron Mix of Five</h2>
+            </div>
+          </div>
+
+          <div class="prod-card">
+            <div class="prod-cta">
+              <img
+                src="./assets/images/image-tiramisu-desktop.jpg"
+                width="200"
+                height="200" />
+              <button>Add to Cart</button>
+            </div>
+            <div class="prod-details">
+              <p class="prod-category">Tiramisu</p>
+              <p class="prod-price">$5.50</p>
+              <h2 class="prod-name">Classic Tiramisu</h2>
+            </div>
+          </div>
+
+          <div class="prod-card">
+            <div class="prod-cta">
+              <img
+                src="./assets/images/image-baklava-desktop.jpg"
+                width="200"
+                height="200" />
+              <button>Add to Cart</button>
+            </div>
+            <div class="prod-details">
+              <p class="prod-category">Baklava</p>
+              <p class="prod-price">$4.00</p>
+              <h2 class="prod-name">Pistachio Baklava</h2>
+            </div>
+          </div>
+
+          <div class="prod-card">
+            <div class="prod-cta">
+              <img
+                src="./assets/images/image-meringue-desktop.jpg"
+                width="200"
+                height="200" />
+              <button>Add to Cart</button>
+            </div>
+            <div class="prod-details">
+              <p class="prod-category">Pie</p>
+              <p class="prod-price">$5.00</p>
+              <h2 class="prod-name">Lemon Meringue Pie</h2>
+            </div>
+          </div>
+
+          <div class="prod-card">
+            <div class="prod-cta">
+              <img
+                src="./assets/images/image-cake-desktop.jpg"
+                width="200"
+                height="200" />
+              <button>Add to Cart</button>
+            </div>
+            <div class="prod-details">
+              <p class="prod-category">Cake</p>
+              <p class="prod-price">$4.50</p>
+              <h2 class="prod-name">Red Velvet Cake</h2>
+            </div>
+          </div>
+
+          <div class="prod-card">
+            <div class="prod-cta">
+              <img
+                src="./assets/images/image-brownie-desktop.jpg"
+                width="200"
+                height="200" />
+              <button>Add to Cart</button>
+            </div>
+            <div class="prod-details">
+              <p class="prod-category">Brownie</p>
+              <p class="prod-price">$4.50</p>
+              <h2 class="prod-name">Salted Caramel Brownie</h2>
+            </div>
+          </div>
+
+          <div class="prod-card">
+            <div class="prod-cta">
+              <img
+                src="./assets/images/image-panna-cotta-desktop.jpg"
+                width="200"
+                height="200" />
+              <button>Add to Cart</button>
+            </div>
+            <div class="prod-details">
+              <p class="prod-category">Panna Cotta</p>
+              <h2 class="prod-name">Vanilla Panna Cotta</h2>
+              <p class="prod-price">$6.50</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="cart">
+          <h2>Your Cart (<span class="cart-quantity">0</span>)</h2>
+          <p>Your added items will appear here</p>
+        </section>
+      </div>
     </div>
   </body>
 </html>
