@@ -8,6 +8,7 @@
   --Rose400: hsl(7, 20%, 60%);
   --Rose500: hsl(12, 20%, 44%);
   --Rose900: hsl(14, 65%, 9%);
+  --image-height: 200px;
 }
 
 /* Fonts */
@@ -76,6 +77,29 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.prod-cta img {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+}
+.prod-cta button {
+  background-color: #fff;
+  color: #2b2b2b;
+  border: 1px solid var(--Rose500);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 0.7em;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.prod-cta button img {
+  width: 18px;
+  height: auto;
 }
 
 /* Media Queries */
