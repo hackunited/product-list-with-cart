@@ -1,94 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
   <title>Frontend Mentor | Product list with cart</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- Red Hat Display font -->
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
+
 <body>
 
-<h1>Desserts</h1>
+  <h1>Desserts</h1>
 
+  <section>
+    <!-- Product List -->
+    <div class="product-list">
+      <div class="product">
+        <h2 class="product-name">Waffle with Berries</h2>
+        <p class="product-category">Waffle</p>
+        <p class="product-price">$6.50</p>
+        <button>Add to Cart</button>
+      </div>
 
-  <section class="product-list">
-    <article class="product">
-      <h2 class="product-name">Waffle with Berries</h2>
-      <p class="product-category">Waffle</p>
-      <p class="product-price">$6.50</p>
-      <button>Add to Cart</button>
-    </article>
+      <div class="product">
+        <h2 class="product-name">Vanilla Bean Crème Brûlée</h2>
+        <p class="product-category">Crème Brûlée</p>
+        <p class="product-price">$7.00</p>
+        <button>Add to Cart</button>
+      </div>
 
-    <article class="product">
-      <h2 class="product-name">Vanilla Bean Crème Brûlée</h2>
-      <p class="product-category">Crème Brûlée</p>
-      <p class="product-price">$7.00</p>
-      <button>Add to Cart</button>
-    </article>
+      <div class="product">
+        <h2 class="product-name">Macaron Mix of Five</h2>
+        <p class="product-category">Macaron</p>
+        <p class="product-price">$8.00</p>
+        <button>Add to Cart</button>
+      </div>
 
-    <article class="product">
-      <h2 class="product-name">Macaron Mix of Five</h2>
-      <p class="product-category">Macaron</p>
-      <p class="product-price">$8.00</p>
-      <button>Add to Cart</button>
-    </article>
+      <div class="product">
+        <h2 class="product-name">Classic Tiramisu</h2>
+        <p class="product-category">Tiramisu</p>
+        <p class="product-price">$5.50</p>
+        <button>Add to Cart</button>
+      </div>
 
-    <article class="product">
-      <h2 class="product-name">Classic Tiramisu</h2>
-      <p class="product-category">Tiramisu</p>
-      <p class="product-price">$5.50</p>
-      <button>Add to Cart</button>
-    </article>
+      <div class="product">
+        <h2 class="product-name">Pistachio Baklava</h2>
+        <p class="product-category">Baklava</p>
+        <p class="product-price">$4.00</p>
+        <button>Add to Cart</button>
+      </div>
 
-    <article class="product">
-      <h2 class="product-name">Pistachio Baklava</h2>
-      <p class="product-category">Baklava</p>
-      <p class="product-price">$4.00</p>
-      <button>Add to Cart</button>
-    </article>
+      <div class="product">
+        <h2 class="product-name">Lemon Meringue Pie</h2>
+        <p class="product-category">Pie</p>
+        <p class="product-price">$5.00</p>
+        <button>Add to Cart</button>
+      </div>
 
-    <article class="product">
-      <h2 class="product-name">Lemon Meringue Pie</h2>
-      <p class="product-category">Pie</p>
-      <p class="product-price">$5.00</p>
-      <button>Add to Cart</button>
-    </article>
+      <div class="product">
+        <h2 class="product-name">Red Velvet Cake</h2>
+        <p class="product-category">Cake</p>
+        <p class="product-price">$4.50</p>
+        <button>Add to Cart</button>
+      </div>
 
-    <article class="product">
-      <h2 class="product-name">Red Velvet Cake</h2>
-      <p class="product-category">Cake</p>
-      <p class="product-price">$4.50</p>
-      <button>Add to Cart</button>
-    </article>
+      <div class="product">
+        <h2 class="product-name">Salted Caramel Brownie</h2>
+        <p class="product-category">Brownie</p>
+        <p class="product-price">$4.50</p>
+        <button>Add to Cart</button>
+      </div>
 
-    <article class="product">
-      <h2 class="product-name">Salted Caramel Brownie</h2>
-      <p class="product-category">Brownie</p>
-      <p class="product-price">$4.50</p>
-      <button>Add to Cart</button>
-    </article>
+      <div class="product">
+        <h2 class="product-name">Vanilla Panna Cotta</h2>
+        <p class="product-category">Panna Cotta</p>
+        <p class="product-price">$6.50</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
 
-    <article class="product">
-      <h2 class="product-name">Vanilla Panna Cotta</h2>
-      <p class="product-category">Panna Cotta</p>
-      <p class="product-price">$6.50</p>
-      <button>Add to Cart</button>
-    </article>
+    <!-- Cart -->
+    <div class="cart">
+      <h2>Your Cart (<span class="cart-quantity">0</span>)</h2>
+      <p>Your added items will appear here</p>
+    </div>
   </section>
 
-  <section class="cart">
-    <h2>Your Cart (<span class="cart-quantity">0</span>)</h2>
-    <p>Your added items will appear here</p>
-  </section>
-
+  <!-- Footer attribution -->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.

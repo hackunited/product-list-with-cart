@@ -1,0 +1,88 @@
+/* Import Font */
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #fefaf6;
+  color: #2a1e1e;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+/* Flex layout */
+body > section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Product list */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  max-width: 70%;
+}
+
+/* Product card */
+.product {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  width: calc(33.333% - 1rem);
+  box-sizing: border-box;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.product-category {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.product-price {
+  font-weight: 500;
+  color: #c1440e;
+  margin-bottom: 1rem;
+}
+
+.product button {
+  padding: 0.5rem 1rem;
+  background-color: #cc4c27;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Cart */
+.cart {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 28%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+.cart h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.cart p {
+  color: #666;
+  font-size: 0.95rem;
+}
