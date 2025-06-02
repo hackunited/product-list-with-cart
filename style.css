@@ -101,10 +101,103 @@ body {
   width: 18px;
   height: auto;
 }
+.prod-details {
+  text-align: left;
+}
+.prod-category {
+  margin-top: 11px;
+}
+
+.prod-name {
+  font-weight: 700;
+  font-size: 1em;
+  color: var(--Rose900);
+  margin: 0;
+  margin-top: 4px;
+}
+.prod-price {
+  font-size: 0.9em;
+  color: var(--Red); /* or use Rose400 for softer tone */
+  font-weight: 750;
+  margin: 0;
+  margin-top: 4px;
+}
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .container {
     background-color: aquamarine;
   }
+}
+
+.cart {
+  width: 25%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cart h2 {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--Rose900);
+  margin-bottom: 10px;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95em;
+  color: var(--Rose500);
+  margin-bottom: 8px;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  color: var(--Rose900);
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.total-amount {
+  color: var(--Red);
+}
+
+.delivery-note {
+  font-size: 0.8em;
+  color: var(--Rose400);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.confirm-btn {
+  background-color: var(--Red);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.confirm-btn:hover {
+  background-color: hsl(14, 86%, 35%);
+}
+.wrapper {
+  display: flex;
 }
