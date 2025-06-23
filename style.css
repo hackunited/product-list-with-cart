@@ -101,6 +101,27 @@ body {
   width: 18px;
   height: auto;
 }
+.prod-details {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.prod-category {
+  font-size: 0.65em;
+  font-weight: 700;
+  color: var(--Rose400);
+}
+.prod-name {
+  font-size: 0.7em;
+  font-weight: 700;
+  color: var(--Rose900);
+}
+.prod-price {
+  font-size: 0.85em;
+  font-weight: 900;
+  color: var(--Rose500);
+}
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
