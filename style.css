@@ -45,12 +45,9 @@ body {
   min-width: 320px;
   height: 100%;
   padding: 80px;
-  background-color: var(--Rose50);
+  background-color: var(--Rose100);
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  align-items: flex-start;
-  justify-content: flex-start;
 }
 .title {
   font-size: 2em;
@@ -126,7 +123,7 @@ body {
   color: var(--Rose500);
 }
 .cart {
-  background-color: #ffffff;
+  background-color: var(--Rose50);
   border-radius: 16px;
   padding: 24px;
   max-width: 360px;
@@ -138,10 +135,10 @@ body {
 }
 
 .cart h2 {
-  color: hsl(14, 86%, 42%);
+  color:var(--Red);
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 40px;
   text-align: left;
 }
 
@@ -154,6 +151,7 @@ body {
   color: #666;
   font-size: 14px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 /* Media Queries */
